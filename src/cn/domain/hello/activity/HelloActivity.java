@@ -32,7 +32,9 @@ public class HelloActivity extends Activity {
 		if (userId == 0 || username == null || "".equals(username)) {
 			return;
 		} else {
-			
+			/**
+			 * aa
+			 */
 			this.tvWelcome.setText("欢迎您：" + userId + "号会员：" + username + "！");
 		}
 	}
